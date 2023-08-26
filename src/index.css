@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Lobster&family=Quicksand:wght@300;400;500;600;700&family=Roboto+Flex:opsz,wght@8..144,300&display=swap');
+
+* {
+  margin: 10px;
+  font-family: "Quicksand";
+  color: #333;
+}
+h2{
+  margin-top: 20px;
+}
+h3{
+  text-align: left;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 12px;
+  border-bottom: 1px solid #f2f2f2;
+  color: blue;
+  font-size: 25px;
+  padding: 0 1rem;
+}
+.navbar h1 {
+  color: #ef8d24;
+}
+.navbar .links {
+ margin: auto;
+ margin-right: 0;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #f1356d;
+}
+
+.content {
+  /* max-width: 600px; */
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+.home{
+  margin: 25px;
+  padding: 10px;
+}
+
+.Search{
+  margin: 30px;
+  display: blcok;
+  justify-content: center;
+}
+.searchInput{
+  margin: 15px;
+  padding: 10px;
+}
+
+.book{
+  margin: 12px;
+  width: 25%;
+  height: 160px;
+}
+
+.links{
+  text-align: left;
+  margin: 20px;
+  cursor: grab;  
+}
+
+.searchInput{
+  width: 80%;
+}
+
+.results{
+  width: 100%;
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 8px #ddd;
+  border-radius: 10px;
+  margin-top: 1rem;
+  max-height: 300px; 
+  overflow-y: scroll;
+ 
+}
+.res{
+  padding: 10px 20px;
+}
+
+.res:hover{
+  background-color: #7b7e7e;
+  color: #f2f2f2;
+}
+
+.menus{
+  list-style: none;
+  font-size: medium;
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+  margin: 0;
+}
+
+.menus a{
+  text-decoration: none;
+  
+}
+a:hover{
+  color: rgb(220, 210, 210);
+  background-color: rgb(75, 158, 196);
+}
